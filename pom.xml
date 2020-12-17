@@ -18,6 +18,7 @@
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
   </properties>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -29,6 +30,17 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
+<repositories>
+    <repository>
+      <id>github_cloud_ui_quarkus</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/moewes/cloud-ui-quarkus</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 
   <dependencies>
     <dependency>
