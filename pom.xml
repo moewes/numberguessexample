@@ -19,6 +19,14 @@
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
   </properties>
 
+<distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/moewes/numberguessexample</url>
+    </repository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
